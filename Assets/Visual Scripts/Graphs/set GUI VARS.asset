@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: set GUI VARS
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Start","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"System.String","key":"Manager
+      Name Out","label":null,"summary":null,"hideLabel":false},{"_type":"System.Collections.Generic.List`1[[System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]","key":"Manager
+      Sentences Out","label":null,"summary":null,"hideLabel":false},{"_type":"UnityEngine.GameObject","key":"Who
+      send the message?","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":176.0,"y":-203.7673},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-276.0,"y":-282.0},"guid":"b8e4367c-eb5b-41aa-9212-db35ab18cdc9","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"npc
+      Name","$type":"System.String"},"object":null},"position":{"x":84.0,"y":-392.0},"guid":"14eef50e-6033-405c-82ef-29a14d273a7d","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"sentences","$type":"System.String"},"object":null},"position":{"x":81.0,"y":-259.0},"guid":"19df6a6f-d87d-446d-8c19-bba41f36f184","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"18"},{"defaultValues":{},"position":{"x":331.0,"y":-292.0},"guid":"b7b97a0f-e999-48a4-a314-8ed6fcb8074b","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"20"},{"member":{"name":"gameObject","parameterTypes":null,"targetType":"UnityEngine.Component","targetTypeName":"UnityEngine.Component","$version":"A"},"defaultValues":{"target":null},"position":{"x":36.0,"y":-89.0},"guid":"6b4006ec-4153-4b95-925c-576b1a16e08e","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"22"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Start","destinationUnit":{"$ref":"20"},"destinationKey":"Output","guid":"54814ccf-b8ba-49c3-806c-18c995977f3c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"Manager
+      Name Out","guid":"8a4f865a-0d2a-4b42-9d5e-b6f638917946","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"Manager
+      Sentences Out","guid":"b8fdecd3-9c43-4245-8f93-ad9c9dd0319a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"Who
+      send the message?","guid":"051d06a6-d4cf-43e7-9e58-f8479ec7163c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
